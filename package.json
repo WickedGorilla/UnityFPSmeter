@@ -1,0 +1,12 @@
+{
+  "name": "com.wickedgorilla.fps_meter",
+  "version": "1.0.0",
+  "displayName": "FPS METER",
+  "description": "Displaying the number of frames per screen",
+  "unity": "2019.1",
+  "dependencies": {
+  },
+  "author": {
+    "name": "WickedGorilla"
+  }
+}
