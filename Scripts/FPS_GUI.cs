@@ -31,7 +31,7 @@ namespace WickedGorilla.FPS_Meter
 
             if (Time.unscaledTime >= _nextTimeUpdateLabel)
             {
-                _currentFps = (int)(1f / Time.deltaTime);
+                _currentFps = (int)(1f / Time.unscaledDeltaTime);
                 _nextTimeUpdateLabel = Time.unscaledTime + 0.5f;
             }
 
